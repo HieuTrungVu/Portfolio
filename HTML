@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" 
+  </head>
+  <body>
+  <div id="colorframe">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to    help us improve the platform</p>  
+    <div id="frame">
+    <form id="survey-form">
+      <!--namelabel-->
+      <label id="name-label" for="name">Name</label>
+      <input class="textfield" id="name" type=text required name="name" placeholder="Enter your name"> 
+     <!--email label-->
+     <label id="email-label" for="email">Email</label>
+     <input class="textfield" id="email" type=email required name ="email" placeholder="Enter your Email"> 
+     <!--agelabel-->
+     <label id="number-label" for="age">Age<a>(optional)</a></label>
+     <input class="textfield" id="number" type="number" required name="name" placeholder="age" min="18" max="120">
+     <!--selection-->
+     <label id="dropdownlabel" for="dropdown">Which option best describes your current role?</label>
+     <select class="textfield" id="dropdown" name="dropdown" required>
+       <option value="1">Student</option>
+       <option value="2">Full Time Job</option> 
+     </select>
+     <!--radiobuttons-->
+     <a id="recommend">Would you recommend freeCodeCamp to a friend?</a>
+      <label id="recommendlabel" for="yes"> <input type="radio" name="recommend" id="yes" value="1">yes</label>
+      <label id="notrecommendlabel" for="no"> <input type="radio" name="recommend" id="no" value="2">no</label>
+      <!--checkbox-->
+      <a id="improv">What would you like to see improved?</a>
+       <label id="labelfrontend" for="frontend"> <input type="checkbox" name="improve" id="frontend" value="1">Front-end</label>
+         <label id="labelbackend" for=""> <input type="checkbox" name="improve" id="backend" value="2">Back-end</label>
+      <!--comments-->
+      <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment her..."></textarea>
+     <!--submit-button-->
+     <input id="submit" type="submit" value="Submit" />
+    
+    </form>
+    </div>
+    </div>
+  </body>
