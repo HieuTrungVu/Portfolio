@@ -1,0 +1,82 @@
+label{
+  display:block;
+}
+
+input[type="submit"]{
+  display:block;
+}
+#recommend{
+  display:block;
+}
+
+*{
+  font-family: sans-serif
+}
+
+#frame{
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 40px;
+  width: 400px;
+  margin: auto;
+  background-color: rgba(10,0,10,0.9);
+}
+
+#title{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+#description{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+label{
+  padding-top: 10px;
+  color: white;
+}
+
+.textfield{
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px;
+  height:25px;
+  }
+  a{
+    padding-top: 10px;
+    color:white;
+  }
+
+  #bio{
+    width: 100%;
+    border-radius: 10px;
+  }
+  #submit{
+    margin: 0px auto;
+    display: block;
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: green;
+  }
+  body{
+    background-image: url("https://info.learning.com/hubfs/Marketing/equip/Featured%20images/For-Future-Readiness-Coding-for-Students-Cannot-Wait.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  }
+  
+  #colorframe{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(40,0,40,0.7);
+  }
